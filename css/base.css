@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-color: #f2f5f7;
+    
+}
+
+.pubWidth {
+    margin: 0 auto;
+    width: 1200px;
+    margin-bottom: 300px;
+}
+
+.top {
+    margin: 0 auto;
+    position: relative;
+    line-height: 70px;
+    width: 100%;
+    background-color: rgba(195, 176, 140, 0.68);
+    z-index: 9999999998;
+}
+
+nav.pubWidth {
+    margin: 0 auto;
+    width: 1200px;
+    /* width: 100%; */
+    height: 71px;
+    /* position: fixed;
+     top: 0; */
+    /* right: 50%; */
+    /* background-color: rgba(0, 0, 0, 0); */
+    /* background-color: rgba(195, 176, 140, 0.68); */
+    z-index: 1000;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    float: right;
+}
+
+nav li {
+    float: left;
+    /*设置列表项的前缀为none*/
+    list-style: none;
+    margin-right: 30px;
+}
+
+nav li a {
+    line-height: 64px;
+    /*去除超链接下划线*/
+    text-decoration: none;
+    color: black;
+}
+
+nav li a:hover {
+    color: brown;
+}
+
+.welcome {
+    height: 67px;
+    line-height: 64px;
+    width: 230px;
+    float: left;
+}
+
+.logo {
+    float: left;
+}
+
+.nav_search {
+    /* margin-top: 15px; */
+    height: 40px;
+    float: left;
+    position: relative;
+}
+
+.nav_search input:first-child {
+    padding-left: 15px;
+    outline: none;
+    border-radius: 15px;
+    width: 200px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.nav_search input:last-child {
+    height: 30px;
+    width: 50px;
+    position: absolute;
+    right: -55px;
+    top: 22px;
+    line-height: 30px;
+}
+
+footer {
+	width: 100%;
+    height: 165px;
+    background-color: #212425;
+    overflow: hidden;
+    margin-top: 100px;
+    position: relative;
+    bottom: 0;
+}
+
+footer p {
+    text-align: center;
+    color: #888888;
+    margin-top: 30px;
+}
+
+.txthead {
+    font-family: "楷体";
+    font-size: 20px;
+    text-align: center;
+    /* color: #3300FF; */
+}
+
+.tablehead {
+    background-color: #00FFFF;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.win {
+    border-radius: 10px;
+    POSITION: absolute;
+    left: 55%;
+    top: 60%;
+    width: 400px;
+    height: 250px;
+    margin-left: -300px;
+    margin-top: -200px;
+    border: 1px solid #888;
+    /* background-color: #00CCFF; */
+    background: url("../images/login_bd.jpg") no-repeat center;
+    text-align: center;
+    line-height: 60px;
+    z-Index: 3;
+}
+
+.hidebg {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #000;
+    width: 100%;
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+    display: none;
+    z-Index: 2;
+}
+
+table {
+    margin: 0 auto;
+    border-width: 1px;
+    border-color: #a9c6c9;
+    border-collapse: collapse;
+}
+
+table.bianhuang_td td:hover,
+table.bianhuang tr:hover {
+    background-color: yellow;
+}
+
+
+
+table td {
+    padding: 10px;
+    text-align: center;
+}
+
+input[type=reset], input[type=submit], input[type=button], .button.gray {
+    padding: 1px 6px;
+    /* width: 40px; */
+    line-height: 38px;
+    text-align: center;
+    font-weight: bold;
+    /* color: #fff; */
+    text-shadow: 1px 1px 1px #333;
+    border-radius: 5px;
+    /* margin: 0 20px 20px 0; */
+    position: relative;
+    overflow: hidden;
+    color: #8c96a0;
+    text-shadow: 1px 1px 1px #fff;
+    border: 1px solid #dce1e6;
+    box-shadow: 0 1px 2px #fff inset, 0 -1px 0 #a8abae inset;
+    background: -webkit-linear-gradient(top, #f2f3f7, #e4e8ec);
+    background: -moz-linear-gradient(top, #f2f3f7, #e4e8ec);
+    background: linear-gradient(top, #f2f3f7, #e4e8ec);
+}
+
+input[type=text], input[type=password] {
+    width: 200px;
+    font-size: 12px;
+    /* 设置输入框中字体的大小 */
+    height: 30px;
+    /* 设置输入框的高度 */
+    border-radius: 4px;
+    /* 设置输入框的圆角的大小 */
+    border: 1px solid #c8cccf;
+    /* 设置输入框边框的粗细和颜色 */
+    color: #986655;
+    /* 设置输入框中文字的颜色 */
+    outline: 0;
+    /* 将输入框点击的时候出现的边框去掉 */
+    text-align: left;
+    /* 设置输入框中文字的位置 */
+    padding-left: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px 1px #ccc;
+}
+
+.homepic {
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+
+.homepic div {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.homepic img {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.homepic a {
+    position: absolute;
+    left: 22%;
+    top: 38%;
+    color: hotpink;
+    font-weight: 700;
+    font-family: "楷体";
+    text-decoration: none;
+    font-size: 70px;
+    text-shadow: 5px 5px 5px pink;
+    /* display: none; */
+}
+
+.homepic div:nth-child(1) {
+    top: 0;
+    left: 0;
+    /* transform: rotate(-45deg); */
+}
+
+.homepic div:nth-child(2) {
+    top: 0;
+    right: 0;
+    /* transform: rotate(45deg); */
+}
+
+.homepic div:nth-child(3) {
+    bottom: 130px;
+    right: 350px;
+    /* transform: rotate(135deg); */
+}
+
+
+.snow-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 100001;
+}
+
+/* nav li.active {
+    border-bottom: 3px solid red;
+} */
+
+#switch {
+    display: block;
+    position: absolute;
+    left: 20px;
+    top: 3px;
+    z-index: 9999999999;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.music-on {
+    background: url(../images/music.png) no-repeat;
+    background-size: 100% 100%;
+    animation: ani-music 3s linear infinite;
+    -webkit-animation: ani-music 3s linear infinite;
+}
+
+.music-off {
+    background: url(../images/music.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+@-webkit-keyframes ani-music {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
